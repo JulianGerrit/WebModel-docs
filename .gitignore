@@ -39,3 +39,11 @@ Thumbs.db
 # Editor backup files #
 #######################
 *~
+
+# Python virtual environments #
+###############################
+.envs
+
+# Editor folders #
+##################
+.vscode
