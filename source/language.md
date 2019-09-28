@@ -31,7 +31,7 @@ The scope which they are defined in does not affect the variables.
 
 
 
-###Conditional Operators
+### Conditional Operators
 
 | Action            	| Operator 	| Example 	|
 |-------------------	|----------	|---------	|
@@ -49,8 +49,8 @@ The scope which they are defined in does not affect the variables.
 
 ## Examples
 
-#####Increment t
-######Start Instructions
+##### Increment t
+###### Start Instructions
 ```
 draw t as RED;
 t = 0;
