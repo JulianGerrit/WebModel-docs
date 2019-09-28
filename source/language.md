@@ -7,7 +7,7 @@ The language supports simple if statements and Mathematical expressions.
 
 ## Syntax
 
-###Conditional Statements
+### Conditional Statements
 The language supports conditional statements through `if` and `else` statements.
 The if statements support [comparative and logical operators](#Conditional Operators).
 
