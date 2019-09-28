@@ -10,7 +10,7 @@ The language supports simple if statements and Mathematical expressions.
 ### Conditional Statements
 The language supports conditional statements through `if` and `else` statements.
 The if statements support
-[comparative and logical operators](#Conditional-Operators)
+[comparative and logical operators](#conditional-operators)
 
 
 ### Variables
