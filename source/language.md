@@ -34,7 +34,7 @@ The scope which they are defined in does not affect the variables.
 ### Conditional Operators
 
 | Action            	| Operator 	| Example 	|
-|-------------------	|----------	|---------	|
+| ---- | ---- | -------: |
 | Greater           	| \>        | a > b   	|
 | Lesser            	| <        	| a < b   	|
 | Greater Or Equal  	| >=       	| a >= b  	|
