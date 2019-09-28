@@ -10,3 +10,4 @@ Welcome to WebModel's documentation!
    :maxdepth: 2
 
    introduction
+   language

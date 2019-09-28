@@ -1,18 +1,18 @@
-#Language Documentation
+# Language Documentation
 
 Steyn Language is a language designed for scientific modelling.\
 It's syntax was inspired by programming languages such as Java.\
 The language supports simple if statements and Mathematical expressions.
 
 
-##Syntax
+## Syntax
 
 ###Conditional Statements
 The language supports conditional statements through `if` and `else` statements.
 The if statements support [comparative and logical operators](#Conditional Operators).
 
 
-###Variables
+### Variables
 Variables are defined globally.\
 The scope which they are defined in does not affect the variables.
 
@@ -44,10 +44,10 @@ The scope which they are defined in does not affect the variables.
 | Or                	|  \|\|      	| a \|\| b  |
 | Not               	| !        	| !a      	|
 
-##Functions
+## Functions
 
 
-##Examples
+## Examples
 
 #####Increment t
 ######Start Instructions
@@ -56,17 +56,17 @@ draw t as RED;
 t = 0;
 dt = 1;
 ```
-######Model
+###### Model
 ```
 if(t > 10) {
    end;
 }
 t+=dt;
 ```
-#####FOO
-######Start Instructions
-######Model
+##### FOO
+###### Start Instructions
+###### Model
 
-#####BAR
-######Start Instructions
-######Model
+##### BAR
+###### Start Instructions
+###### Model
