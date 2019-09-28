@@ -9,7 +9,8 @@ The language supports simple if statements and Mathematical expressions.
 
 ### Conditional Statements
 The language supports conditional statements through `if` and `else` statements.
-The if statements support [comparative and logical operators](#Conditional Operators).
+The if statements support
+[comparative and logical operators](#Conditional-Operators)
 
 
 ### Variables
@@ -17,12 +18,11 @@ Variables are defined globally.\
 The scope which they are defined in does not affect the variables.
 
 
-
 ### Math Operators
 
 
 | Action   	| Operator 	| Example 	|
-|----------	|----------	|---------	|
+| ---- | ---- | -------: |
 | Add      	| +        	| a + b   	|
 | Subtract 	| -        	| a - b   	|
 | Multiply 	| *        	| a * b   	|
