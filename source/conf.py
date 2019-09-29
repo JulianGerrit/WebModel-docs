@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'WebModel'
-copyright = '2019, Julian Gerritsen'
-author = 'Julian Gerritsen'
+copyright = '2019, Frederick Steen'
+author = 'Frederick Steen'
 
 
 # -- General configuration ---------------------------------------------------
