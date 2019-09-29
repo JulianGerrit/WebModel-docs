@@ -1,6 +1,6 @@
 # Language Documentation
 
-**Steyn Language** `[steːn ˈleɪŋɡwɪd͡ʒ]`is a language designed for scientific modelling.\
+**Steyn Language** `[steːn ˈleɪŋɡwɪd͡ʒ]` is a language designed for scientific modelling.\
 It's syntax was inspired by programming languages such as Java.\
 The language supports simple if statements and Mathematical expressions.
 
@@ -9,10 +9,10 @@ Steyn Language was designed by steenooo aka Freek Steen.
 ## Syntax
 
 The language has it's roots in languages such as Java.\
-The execution of a model requires a *Start Instruction*
+The execution of a model requires a *Start Instruction*.\
 The syntax of which is similar to the model. The start instructions do not support conditional statements.
 
-###Variables
+### Variables
 Variables are defined globally. The scope of initialization does not affect access to the variables.
 Variables can be uppercase and lowercase and consist. There is no maximal length of a variable.
 Variables can only consist of characters in the basic latin alphabet. 
