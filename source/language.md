@@ -56,8 +56,8 @@ The if statements support
 | Divide   	| /        	| a / b   	|
 | Power    	| ^        	| a ^ b   	|
 
-Illegal mathematical operations (such as division by zero) will result in a NaN value.\n
-It will not terminate the model.
+Illegal mathematical operations (such as division by zero) will result in a NaN value.\
+The model will continue executing.
 
 
 
