@@ -1,4 +1,4 @@
-# Language Documentation
+﻿# Language Documentation
 
 **Steyn Language** `[steːn ˈleɪŋɡwɪd͡ʒ]` is a language designed for scientific modelling.\
 It's syntax was inspired by programming languages such as Java.\
@@ -83,7 +83,7 @@ b = round(0.5435633563, 3);
 
 ```
 
-######TODO: Add table of functions...
+###### TODO: Add table of functions...
 
 ## Examples
 
