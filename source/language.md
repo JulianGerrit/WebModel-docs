@@ -105,7 +105,7 @@ t+=dt;
 ###### Start Instructions
 ```
 draw F as RED;
-draw v AS BLUE;
+draw v as BLUE;
 draw t as MAGENTA;
 t = 0;
 dt = 0.001;
