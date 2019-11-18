@@ -22,7 +22,7 @@ The language recognizes two variable types. Hidden and Visible variables.
 A visible variable is a variable that will be used to draw the graph. 
 To define a visible variable one should use the keyword `draw`.
 ```
-draw x as RED;
+draw x as X_AXIS;
 draw y as (234, 0, 116);
 draw z as #4934eb;
 ```
@@ -90,6 +90,7 @@ b = round(0.5435633563, 3);
 ##### Increment T. Stop at t > 10
 ###### Start Instructions
 ```
+draw x as X_AXIS;
 draw t as RED;
 t = 0;
 dt = 1;
@@ -104,6 +105,7 @@ t+=dt;
 ##### Simple harmonic motion
 ###### Start Instructions
 ```
+draw x as X_AXIS
 draw F as RED;
 draw v as BLUE;
 draw t as MAGENTA;
@@ -127,6 +129,7 @@ t+=dt;
 ##### Damped oscillations
 ###### Start Instructions
 ```
+draw x as X_AXIS;
 draw Fn as RED;
 draw v as BLUE;
 draw t as MAGENTA;
