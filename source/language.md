@@ -21,6 +21,7 @@ Numbers and special characters are not supported.
 The language recognizes two variable types. Hidden and Visible variables.
 A visible variable is a variable that will be used to draw the graph. 
 To define a visible variable one should use the keyword `draw`.
+To define the x axis for this graph, use `X_AXIS` on the position of a color.
 ```
 draw x as X_AXIS;
 draw y as (234, 0, 116);
@@ -45,6 +46,16 @@ c = 2 * PI;
 The language supports conditional statements through `if` and `else` statements.
 The if statements support
 [comparative and logical operators](#conditional-operators)
+
+### Model Termination
+To terminate a running model, it's possible to use the keyword `end`.\
+This will terminate the model the next iteration.\
+This keywords allows the user to limit the amount of iterations.
+```
+if(t > 10) {
+   end;
+}
+```
 
 ### Math Operators
 
@@ -76,7 +87,8 @@ The model will continue executing.
 
 ### Functions
 The language supports predefined mathematical functions\
-Functions can have either one or two parameters. 
+Functions can have either one or two parameters.\
+The provided functions are implemented through `kotlin.math`.
 ```
 a = sin(0.45);
 b = round(0.5435633563, 3);
@@ -100,15 +112,15 @@ dt = 1;
 if(t > 10) {
    end;
 }
+x+=dt;
 t+=dt;
 ```
 ##### Simple harmonic motion
 ###### Start Instructions
 ```
-draw x as X_AXIS
 draw F as RED;
 draw v as BLUE;
-draw t as MAGENTA;
+draw t as X_AXIS;
 t = 0;
 dt = 0.001;
 C = 2;
@@ -129,10 +141,9 @@ t+=dt;
 ##### Damped oscillations
 ###### Start Instructions
 ```
-draw x as X_AXIS;
 draw Fn as RED;
 draw v as BLUE;
-draw t as MAGENTA;
+draw t as X_AXIS;
 t = 0;
 dt = 0.001;
 C = 2;
